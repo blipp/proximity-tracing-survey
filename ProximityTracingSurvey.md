@@ -92,6 +92,10 @@ Resistance against the above mentioned attacks when conducted by the following a
 Privacy features:
 * Does the protocol keep the possibility open to not report certain time slots?
 
+:::warning
+TODO start a table summarizing these characteristics for all proposals
+:::
+
 # Timeline of Publications and Reactions
 
 :::warning
@@ -99,7 +103,7 @@ This section is incomplete and is constantly being updated.
 :::
 
 ## Governments
-
+* 2020-04-15 ==EU== Mobile applications to support contact tracing in the EU’s fight against COVID-19, Version 1.0 https://ec.europa.eu/health/sites/health/files/ehealth/docs/covid-19_apps_en.pdf
 * 2020-04-21 ==Switzerland== ==Announcement== Swiss tracing app will be based on DP-3T https://news.epfl.ch/news/epfl-and-eth-zurich-advance-digital-contact-tracin/
 * 2020-04-22 ==France== ==Law== New regulation about data that can be collected and used by health authorities and insurances related to Covid-19 https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000041812657
 
@@ -117,6 +121,7 @@ TODO add the others
 * 2020-04-14 ==Analysis== Yaron Gvili: Security Analysis of the COVID-19 Contact Tracing Specifications by Apple Inc. and Google Inc. https://eprint.iacr.org/2020/428
 * 2020-04-17 ==Proposal== First version of ROBERT published on GitHub
 * 2020-04-18 ==Proposal== First publication of PEPP-PT NTK on GitHub
+* 2020-04-19 ==Analysis== The DP-3T team analyses PEPP-PT and ROBERT https://github.com/DP-3T/documents/tree/master/Security%20analysis
 
 ## Scientific Community
 * 2020-04-17 [Nadim Kobeissi: An Investigation Into PEPP-PT](https://nadim.computer/posts/2020-04-17-pepppt.html) Timeline of events related to PEPP-PT
@@ -130,10 +135,21 @@ TODO add the others
 * 2020-04-14 [La Quadrature du Net: Nos arguments pour rejeter StopCovid](https://www.laquadrature.net/2020/04/14/nos-arguments-pour-rejeter-stopcovid/)
 
 ## Press Coverage
+
+* 2020-04-08 ==France== http://www.leparisien.fr/high-tech/coronavirus-le-gouvernement-penche-pour-une-appli-de-tracage-par-bluetooth-08-04-2020-8296368.php
 * 2020-04-10 https://www.eff.org/fr/deeplinks/2020/04/challenge-proximity-apps-covid-19-contact-tracing
 * 2020-04-15 https://hbr.org/2020/04/how-digital-contact-tracing-slowed-covid-19-in-east-asia
 * 2020-04-17 https://www.wired.com/story/apple-google-contact-tracing-strengths-weaknesses/
 * 2020-04-22 ==Germany== https://www.tagesschau.de/investigativ/swr/tracking-app-101.html
+
+## Development Environment and Technical Considerations
+ 
+### API
+* Android Contact Tracing API https://www.blog.google/documents/55/Android_Contact_Tracing_API.pdf/
+* iOS Contact Tracing API https://www.apple.com/covid19/contacttracing/
+    
+### Bluetooth
+* 2020-04-22 ==Security==  Remote Code Execution -- CVE-2020-0022 https://insinuator.net/2020/04/cve-2020-0022-an-android-8-0-9-0-bluetooth-zero-click-rce-bluefrag/
 
 # License
 
