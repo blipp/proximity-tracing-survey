@@ -7,7 +7,7 @@
 
 Affiliations are listed for completeness and do not imply endorsement.
 
-**Disclaimer:** In this living document the authors are trying to aggregate all information about existing contact/proximity tracing solutions without stating an opinion. The content of this document is based on data available before and on 22nd of April, 2020. We will update this “last updated” date whenever updates are made to this document.
+**Disclaimer:** In this living document the authors are trying to aggregate all information about existing contact/proximity tracing solutions without stating an opinion. The content of this document is based on data available before and on 24th of April, 2020. We will update this “last updated” date whenever updates are made to this document.
 
 Table of Contents:
 [TOC]
@@ -104,8 +104,10 @@ This section is incomplete and is constantly being updated.
 
 ## Governments
 * 2020-04-15 ==EU== Mobile applications to support contact tracing in the EU’s fight against COVID-19, Version 1.0 https://ec.europa.eu/health/sites/health/files/ehealth/docs/covid-19_apps_en.pdf
-* 2020-04-21 ==Switzerland== ==Announcement== Swiss tracing app will be based on DP-3T https://news.epfl.ch/news/epfl-and-eth-zurich-advance-digital-contact-tracin/
+* 2020-04-21 ==Switzerland== ==Adoption== Swiss tracing app will be based on DP-3T https://news.epfl.ch/news/epfl-and-eth-zurich-advance-digital-contact-tracin/
+* 2020-04-21 ==EU== [European Data Protection Board: Guidelines 04/2020 on the use of location data and contact tracing tools in the context of the COVID-19 outbreak](https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-042020-use-location-data-and-contact-tracing_en)
 * 2020-04-22 ==France== ==Law== New regulation about data that can be collected and used by health authorities and insurances related to Covid-19 https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000041812657
+* 2020-04-23 ==Estonia== ==Adoption== [How do you trace Covid-19 while respecting privacy?](https://e-estonia.com/trace-covid-19-while-respecting-privacy/) Estonia will build tracing app based on DP-3T
 
 ## Publications
 
@@ -124,15 +126,21 @@ TODO add the others
 * 2020-04-19 ==Analysis== The DP-3T team analyses PEPP-PT and ROBERT https://github.com/DP-3T/documents/tree/master/Security%20analysis
 
 ## Scientific Community
+* 2020-03-31 [Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936)
+* 2020-04-12 [Ross Anderson: Contact Tracing in the Real World](https://www.lightbluetouchpaper.org/2020/04/12/contact-tracing-in-the-real-world/)
+* 2020-04-13 [Bruce Schneier: Contact Tracing COVID-19 Infections via Smartphone Apps](https://www.schneier.com/blog/archives/2020/04/contact_tracing.html)
 * 2020-04-17 [Nadim Kobeissi: An Investigation Into PEPP-PT](https://nadim.computer/posts/2020-04-17-pepppt.html) Timeline of events related to PEPP-PT
 * 2020-04-18 [ Contact tracing  : Bruno Sportisse, PDG d’Inria, donne quelques éléments pour mieux comprendre les enjeux](https://www.inria.fr/fr/contact-tracing-bruno-sportisse-pdg-dinria-donne-quelques-elements-pour-mieux-comprendre-les-enjeux)
 * 2020-04-19 [Joint Statement on Contact Tracing from 19th April 2020 by 300+ scientists](https://drive.google.com/file/d/1OQg2dxPu-x-RZzETlpV3lFa259Nrpk1J/view)
 * 2020-04-21 https://risques-tracage.fr/
+* 2020-04-23 ==Australia== [Vanessa Teague: Contact tracing and Consent: why using TraceTogether is different from using your memory](https://github.com/vteague/contactTracing/blob/master/blog/2020-04-23ContactTracingAndConsent.md)
 
 ## Civil Society
 
 * 2020-04-06 [CCC: 10 requirements for the evaluation of "Contact Tracing" apps](https://www.ccc.de/en/updates/2020/contact-tracing-requirements)
+* 2020-04-08 [ACLU: The Limits of Location Tracking in an Epidemic](https://www.aclu.org/sites/default/files/field_document/limits_of_location_tracking_in_an_epidemic.pdf)
 * 2020-04-14 [La Quadrature du Net: Nos arguments pour rejeter StopCovid](https://www.laquadrature.net/2020/04/14/nos-arguments-pour-rejeter-stopcovid/)
+* 2020-04-24 ==Germany== [CCC: Corona-Tracing-App: Offener Brief an Bundeskanzleramt und Gesundheitsminister](https://www.ccc.de/de/updates/2020/corona-tracing-app-offener-brief-an-bundeskanzleramt-und-gesundheitsminister)
 
 ## Press Coverage
 
@@ -140,7 +148,8 @@ TODO add the others
 * 2020-04-10 https://www.eff.org/fr/deeplinks/2020/04/challenge-proximity-apps-covid-19-contact-tracing
 * 2020-04-15 https://hbr.org/2020/04/how-digital-contact-tracing-slowed-covid-19-in-east-asia
 * 2020-04-17 https://www.wired.com/story/apple-google-contact-tracing-strengths-weaknesses/
-* 2020-04-22 ==Germany== https://www.tagesschau.de/investigativ/swr/tracking-app-101.html
+* 2020-04-22 ==Germany== Coronavirus-App: Infizierte nachverfolgen, Datenschutz wahren https://www.tagesschau.de/investigativ/swr/tracking-app-101.html
+* 2020-04-24 ==Germany== [Hanno Böck: Corona-Tracing: Eine App, die nicht zuverlässig funktioniert](https://www.golem.de/news/corona-tracing-eine-app-die-nicht-zuverlaessig-funktioniert-2004-148057.html)
 
 ## Development Environment and Technical Considerations
  
